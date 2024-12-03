@@ -1,0 +1,79 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Roughcast.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.3320656687910948 0.7580022877011744 0.5613955142767967 1.325285273849139
+  position -3.925098064161053 -3.7789771727133536 8.64957169041184
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 3 3
+  wallHeight 0.2
+}
+Wall {
+  translation 0.51 -0.01 0
+  size 0.02 1 0.2
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -1.01 -0.01 0
+  name "wall(3)"
+  size 0.02 1 0.2
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 1.01 -0.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(1)"
+  size 0.02 1 0.2
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -1 -0.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(2)"
+  size 0.02 1 0.2
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.52 0.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(4)"
+  size 0.02 1 0.2
+  appearance Roughcast {
+    colorOverride 0.368627 0.360784 0.392157
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
